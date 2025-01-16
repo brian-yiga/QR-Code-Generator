@@ -20,6 +20,7 @@ main {
 }
 
 
+
 .input-container {
     display: flex;
     align-items: center;  
@@ -45,7 +46,7 @@ input::placeholder {
 
 #getQrcode {
     position: absolute;
-    right: 10px;
+    right: 5px;
     height: 80%;  
     padding: 0 40px;  
     border-radius: 10px;
@@ -56,6 +57,7 @@ input::placeholder {
     display: flex;
     align-items: center;  
     justify-content: center;  
+    
 }
 
 #download,
@@ -73,11 +75,12 @@ input::placeholder {
 #qrcode {
     /* border-radius: 25px; */
     margin: 150px 0;
-    width: 128px;
-    height: 128px;
+    width: 228px;
+    height: 228px;
 }
 
 #buttons {
     display: flex;
     gap: 30px;
-}
+}   
+

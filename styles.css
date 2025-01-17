@@ -72,8 +72,17 @@ input::placeholder {
     cursor: pointer;
 }
 
+.qrContainer {
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
 #qrcode {
-    /* border-radius: 25px; */
     margin: 150px 0;
     width: 228px;
     height: 228px;
